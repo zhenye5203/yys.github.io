@@ -57,6 +57,7 @@ $(function(){
 $(function(){
     //滚动固定导航栏
     $(window).scroll(function(){
+    	console.log(1);
     	if($(window).scrollTop()>$(".header").height()){
     		$(".bottom-nav").css({"background":"#fff","position":"fixed","top":"0",});
     		$(".header-main-nav a").css("color","#000");
