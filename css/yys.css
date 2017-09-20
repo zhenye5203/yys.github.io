@@ -1,0 +1,373 @@
+/* 头部开始 */
+.wrap-top{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 3;
+}
+
+.header-top{
+	height: 56px;
+	width: 100%;
+	line-height: 56px;
+}
+
+.header-logo{
+	margin-top: 6px;
+	background-image: url('../images/logo.png');
+	width: 133px;
+	height: 44px;
+}
+.header-myworld{
+	position: relative;
+}
+.header-myworld .header-myworld-img{
+	background-image: url('../images/myWorld.jpg');
+	width: 420px;
+	height: 55px;
+}
+.header-nav ul li{
+	float: left;
+	padding: 0 15px;
+	height: 56px;
+}
+.header-nav-red a{
+	color: #bc2e2e;
+}
+
+.header-nav-red{
+	margin-right: 5px;
+	background: url('../images/sprit.png') no-repeat 99px 16px;
+}
+.header-myworld-img-show{
+    position: absolute;
+    left: -177px;
+    display: none;
+}
+
+.htmleaf-container{
+	background:url(../images/yys_bg.jpg) no-repeat 50% 0;font-family: '微软雅黑';
+	height: 850px;
+	position: relative;
+}
+.header-nav ul li:hover{
+	border-bottom: 3px solid #bc2e2e;
+}
+
+/* 导航栏 */
+.bottom-nav{
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+}
+.header-main-nav{
+	margin: 30px 0 0 0;
+}
+.header-main-nav ul li{
+	float: left;
+	width: 120px;
+	height: 50px;
+	position: relative;
+}
+/* .header-main-nav ul li:hover a{
+	color: #bc2e2e;
+} */
+.header-main-nav ul li a{
+	color: white;
+	font-size: 16px;
+}
+.header-main-nav ul li .line{
+	position: absolute;
+    width: 15px;
+    height: 24px;
+    right: 20px;
+    background: url('../images/index_z_90de8dc.png') no-repeat -1689px -224px;
+}
+
+/* 官方渠道 */
+.header-main-nav-qudao{
+	display: none;
+	position: absolute;
+	width: 100%;
+	background: #c8d0d0;
+	height: 200px;
+	top: 80px;
+	padding-top: 33px;
+
+}
+.header-main-nav-qudao div,.header-main-nav-qudao a{
+	float: right;
+}
+.header-main-nav-qudao a{
+	display: block;
+	width: 220px;
+}
+.main-nav-qudao-qqteam{
+   width: 340px;
+   margin-left: 64px;
+}
+.main-nav-qudao-qqteam span{
+    display: inline-block;
+    width: 150px;
+    margin: 5px 15px 0 0;
+    color: #666;
+}
+.main-nav-qudao-qqteam p{
+	width: 100%;
+	margin: 15px 0 0 0;
+	text-align: center;
+	font-size: 16px;
+	color: #666;
+}
+
+.main-nav-qudao-weixin,.main-nav-qudao-weibo{
+	width: 222px;
+	height: 104px;
+	border-right: 1px solid #000;
+}
+.main-nav-qudao-weixin img,.main-nav-qudao-weibo img{
+	width: 84px;
+	height: 84px;
+	margin: auto;
+	display: block;
+	margin-top: -10px;
+}
+.main-nav-qudao-weixin p,.main-nav-qudao-weibo p{
+   text-align: center;
+   margin-top: 5px;
+   font-size: 16px;
+}
+
+.header-main-nav-qudao .luntan, .header-main-nav-qudao .tieba{
+	width: 215px;
+	height: 104px;
+	border-right: 1px solid #000;
+}
+.tieba span{
+	background: url('../images/index_z_90de8dc.png') no-repeat -983px -608px;
+	display: block;
+	width: 80px;
+	height: 68px;
+	margin: auto;
+}
+.luntan span {
+	background: url('../images/index_z_90de8dc.png') no-repeat -832px -608px;
+	display: block;
+	width: 84px;
+	height: 68px;
+	margin: auto;
+}
+.luntan p,.tieba p{
+	font-size: 16px;
+	color: #000;
+	margin-top: 12px;
+	text-align: center;
+}
+
+.header-main-nav-code{
+	display: none;
+}
+.header-main-nav-code p{
+	width: 20px;
+	float: left;
+	font-size: 14px;
+	margin: 2px 5px 0 2px;
+}
+.header-main-nav-code img{
+	width: 74px;
+	height: 74px;
+	float: left;
+    margin-top: 3px;
+    margin-right: 15px;
+}
+.header-main-nav-code a{
+	display: block;
+	float: left;
+	padding-left: 15px;
+	border-left: 1px solid #ccc
+}
+.yys-icon{
+	display: inline-block;
+	width: 74px;
+	height: 74px;
+	background: url('../images/index_z_90de8dc.png') no-repeat -759px -608px;
+	margin-top: 3px;
+	padding-left: 15px;
+	float: left;
+	margin-right: 15px;
+}
+.header-main-nav-code .gamename{
+	margin-top: 10px
+}
+.header-main-nav-code .gamename span{
+	font-size: 14px;
+	margin-top: 2px;
+}
+.header-main-nav-code a h1{
+    font-size: 30px;
+    color: #333;
+} 
+
+
+/* 波浪动画 */
+.wave{
+	position: absolute;
+	bottom: -50px;
+	left: -360px;
+	width: 1943px;
+	height: 91px;
+	overflow: hidden;
+}
+.wave1{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	}
+.wave-1{
+	left: 0;
+}
+ .wave-2{
+	left: 1284px;
+}.wave-3{
+	left: 2568px;
+}
+.wave1 img{
+	display: block;
+    position: absolute;
+    top: 0;
+    width: 1284px;
+    height: 91px;
+}
+.group1{
+    animation: move 7s infinite linear;
+}
+.group2{
+	left: -300px;
+    animation: move 5s infinite linear;
+}
+.group3{
+	left: -600px;
+    animation: move 9s infinite linear;
+}
+@keyframes move{
+	0% {
+		transform: translate(0,0);
+	}
+	100% {
+	    transform: translate(-1284px,0);
+	}
+}
+
+/* 主体内容 */
+
+.wrap{
+	width: 1200px;
+	margin: 0 auto;
+}
+.main{
+	width: 100%;
+	position: relative;
+	z-index: 10;
+}
+.shantu{
+	float: left;
+	margin-right: 50px;
+}
+.shantu img{
+	width: 122px;
+	height: 122px;
+}
+.mian-download-yys{
+	padding: 5px;
+	margin-top: 20px;
+	float: left;
+	width: 533px;
+	height: 123px;
+	background: #fccc00;
+	border-radius: 10px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.main-download-close .close-icon{
+    background: url('../images/index_z_90de8dc.png') no-repeat -1684px -835px;
+    width: 22px;
+    height: 22px;
+    float: left;
+    margin-right: 10px;
+}
+.icon{
+	background-image: url('../images/index_z_90de8dc.png');
+}
+.quanpintai{
+	float: left;
+	width: 45px;
+	height: 100px;
+	background-position: -1350px -614px;
+	margin: 6px 0;
+}
+
+.download-weixin{
+	width: 91px;
+	height: 91px;
+	float: left;
+	border-radius: 5px;
+	background: #fff;
+	margin: 10px 15px 0;
+	position: relative;
+}
+.img-weixin{
+	width: 100%;
+}
+
+.img-line{
+	width: 100%;
+	position: absolute;
+	animation: mainbarcode 3s linear infinite
+}
+
+@keyframes mainbarcode{
+	0%{
+	    -webkit-transform: translate3d(0,0,0);
+	    -moz-transform: translate3d(0,0,0);
+	    -ms-transform: translate3d(0,0,0);
+	    -o-transform: translate3d(0,0,0);
+	    transform: translate3d(0,0,0);
+	}
+	100% {
+	    -webkit-transform: translate3d(0,90px,0);
+	    -moz-transform: translate3d(0,90px,0);
+	    -ms-transform: translate3d(0,90px,0);
+	    -o-transform: translate3d(0,90px,0);
+	    transform: translate3d(0,90px,0);
+	}
+}
+.download-buttons{
+	float: left;
+	padding-top: 5px;
+	margin-right: 8px;
+}
+.download-buttons .apple-button{
+	background-position: -1174px -1314px;
+	display: block;
+    margin-bottom: 5px;
+    width: 171px;
+    height: 51px;
+}
+.download-buttons .android-button{
+	background-position: -1080px -993px;
+	display: block;
+    margin-bottom: 5px;
+    width: 171px;
+    height: 51px;
+}
+.desktop-button{
+	float: left;
+    width: 131px;
+    height: 107px;
+    margin-left: 6px;
+    margin-top: 5px;
+    background-repeat: no-repeat;
+    background-position: -928px -683px;
+}

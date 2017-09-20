@@ -1,0 +1,41 @@
+[html] view plain copy print?
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<html xmlns="http://www.w3.org/1999/xhtml">  
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+<title>无标题文档</title>  
+<script type="text/javascript" language="javascript" src="node_modules/jquery/dist/jquery.js">  
+</script>  
+<script language="javascript">  
+$(document).ready(function(){  
+    $("#btn1").toggle(function(){  
+              
+            $("p").fadeOut("slow");  
+            },function(){  
+                $("p").fadeIn("slow");  
+                  
+          
+        });  
+        $("#btn2").toggle(function(){  
+              
+            $("p").fadeTo("slow",0.66);  
+            },function(){  
+                $("p").fadeTo("slow",0.66);   
+        });   
+    });  
+  
+</script>  
+</head>  
+  
+<body>  
+<p style="background:#3F3">this is pi<br>  
+this is pi<br>  
+this is pi<br>  
+this is pi<br>  
+this is pi<br>  
+this is pi<br>  
+</p>  
+<input type="button" value="淡入/淡出" id="btn1">  
+</body>  
+<input type="button" value="淡入/淡出 效果 透明度0.66" id="btn2">  
+</html> 

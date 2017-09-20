@@ -1,0 +1,70 @@
+/*
+ * reset.css
+ * 重置所有的默认样式
+ * @author    XXX
+ * @date      xxxx年xx月xx日
+ * @version   1.0.0
+ * 
+ * 修改了XXXXX
+ * @author    XXX
+ * @date      xxxx年xx月xx日
+ * @version   1.1.0
+ */
+
+/*去掉默认的外边距和内边距*/
+body,h1,h2,h3,h4,h5,h6,div,p,ul,ol,li,form,table,tr,td,dl,dt,dd,label,a,input,button{
+	margin: 0;
+	padding: 0;
+}
+/*去除有序和无序列表的前X*/
+ul, ol, li{
+	list-style: none;
+}
+em{
+	font-style:normal;
+}
+/*设置默认整个文档的字体*/
+body{
+	font-size: 12px;
+	font-family: '微软雅黑', '宋体', arial;
+}
+
+/*设置table的边框*/
+table{
+	border-collapse: collapse;/*tr,td不使用默认边框，可以自定义边框的颜色，粗细*/
+	border-spacing: 0;
+}
+
+/*设置a标签的样式*/
+a{
+	color: #333333;
+	text-decoration: none;/*不使用默认的下划线*/
+}
+a:hover{/*伪类方式，鼠标在上方时使用的样式*/
+	color: #CC0000;
+	text-decoration: none;
+}
+
+.clearfix:after{
+	content:"";
+	display: block;
+	height:0;
+	clear:both;
+}
+
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
